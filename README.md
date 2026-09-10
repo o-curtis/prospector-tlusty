@@ -1,8 +1,32 @@
 # prospector-tlusty — the LRD photosphere fork
 
+> **If you use this code, or the fits released with it, please cite the paper:**
+>
+> Curtis, O., Cleri, N. J., Helton, J. M., Leja, J., & Wright, J. T. 2026, arXiv e-prints, arXiv:2609.09265, doi:10.48550/arXiv.2609.09265
+>
+> [NASA ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260909265C/abstract) · [arXiv](https://arxiv.org/abs/2609.09265) · posterior chains for every fit: [`lrd-quasistar-fits`](https://github.com/o-curtis/lrd-quasistar-fits)
+
+```bibtex
+@ARTICLE{2026arXiv260909265C,
+       author = {{Curtis}, Olivia and {Cleri}, Nikko J. and {Helton}, Jakob M. and {Leja}, Joel and {Wright}, Jason T.},
+        title = "{A Spectral Framework for Testing the Quasi-Star Hypothesis in Little Red Dots I: Weighing LRDs by Their Super-Eddington Luminosity Ratios---No Signs of Overmassive Black Holes}",
+      journal = {arXiv e-prints},
+         year = 2026,
+        month = sep,
+          eid = {arXiv:2609.09265},
+        pages = {arXiv:2609.09265},
+          doi = {10.48550/arXiv.2609.09265},
+archivePrefix = {arXiv},
+       eprint = {2609.09265},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260909265C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+
 This is the fork of [Prospector](https://github.com/bd-j/prospector) used in
-*"Weighing Little Red Dots by Their Atmospheres: A Spectral Framework for Testing
-the Quasi-Star Hypothesis in Little Red Dots"* (Curtis et al., in preparation).
+*A Spectral Framework for Testing the Quasi-Star Hypothesis in Little Red Dots I: Weighing LRDs by Their Super-Eddington Luminosity Ratios—No Signs of Overmassive Black Holes*
+(Curtis et al. 2026, [arXiv:2609.09265](https://arxiv.org/abs/2609.09265)).
 It adds a stellar-photosphere source basis serving the low-gravity TLUSTY
 Little Red Dot atmosphere library of Liu et al. (2026), living in
 `prospect/sources/` alongside the code's stock bases and the AGN accretion-disk
@@ -28,9 +52,11 @@ What the fork adds:
   cache, evaluate hot and cold LRD photospheres, and plot them. Runs with
   numpy + scipy + matplotlib only.
 
-If you use this basis, please cite Curtis et al. (in preparation) and
-Liu et al. (2026) for the model grid, together with the standard Prospector
-references below. The upstream README follows.
+If you use this basis, please cite Curtis et al. (2026) (reference and BibTeX at
+the top of this page) and Liu et al. (2026) for the model grid, together with the
+standard Prospector references below. The posterior chains for every fit in the
+paper are released at [`lrd-quasistar-fits`](https://github.com/o-curtis/lrd-quasistar-fits).
+The upstream README follows.
 
 ---
 
