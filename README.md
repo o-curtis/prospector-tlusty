@@ -1,6 +1,6 @@
 # prospector-tlusty — the LRD photosphere fork
 
-> **If you use this code, or the fits released with it, please cite the paper:**
+> **If you use this code, or the fits released with it, please cite these papers:**
 >
 > Curtis, O., Cleri, N. J., Helton, J. M., Leja, J., & Wright, J. T. 2026, arXiv e-prints, arXiv:2609.09265, doi:10.48550/arXiv.2609.09265
 >
@@ -20,6 +20,29 @@ archivePrefix = {arXiv},
        eprint = {2609.09265},
  primaryClass = {astro-ph.GA},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260909265C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+
+> Liu, Hanpu, et al. "Synthetic Spectral Library of Optically Thick Atmospheres for Little Red Dots." arXiv preprint arXiv:2603.02317 (2026)
+>
+> [NASA ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260302317L/abstract) · [arXiv](https://arxiv.org/abs/2603.02317)
+
+```bibtex
+@ARTICLE{Liu2026,
+       author = {{Liu}, Hanpu and {Jiang}, Yan-Fei and {Quataert}, Eliot and {Greene}, Jenny E. and {Ma}, Yilun and {Lin}, Xiaojing},
+        title = "{Synthetic Spectral Library of Optically Thick Atmospheres for Little Red Dots}",
+      journal = {arXiv e-prints},
+     keywords = {Astrophysics of Galaxies, Cosmology and Nongalactic Astrophysics, High Energy Astrophysical Phenomena, Solar and Stellar Astrophysics},
+         year = 2026,
+        month = mar,
+          eid = {arXiv:2603.02317},
+        pages = {arXiv:2603.02317},
+          doi = {10.48550/arXiv.2603.02317},
+archivePrefix = {arXiv},
+       eprint = {2603.02317},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260302317L},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
